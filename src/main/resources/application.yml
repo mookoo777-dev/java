@@ -12,3 +12,9 @@ spring:
   elasticsearch:
     uris:
       - http://localhost:9200
+
+ai:
+  vector-service:
+    url: https://api.vector.ai/chat
+  gemini-service:
+    url: https://api.gemini.ai/chat
